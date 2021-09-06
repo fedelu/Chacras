@@ -82,16 +82,21 @@
     background-image:url(img/fondoubic.jpg);
   }
 
+  #fondonosotros {
+    background-image:url(img/fondonos.jpg);
+  }
+
   #frase-nos {
-  height: 250px;
-  background-color: blue;
+  height: 300px;
   text-align: center;
+  padding-top: 100px;
 }
   
   #Texto-nos {
+    margin-top: 100px;
     height: 450px;
-    background-color: green;
     text-align: center;
+    color: white;
 }
   
   #Contactanos {
