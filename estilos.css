@@ -12,7 +12,7 @@
   header {
   display: flex;
   justify-content: space-around;
-  height: 250px;
+  height: 225px;
   flex-wrap: wrap;
 }
  #primerback {
@@ -87,34 +87,46 @@
 
   .grid-2 {
     display: grid;
-    grid-template-rows: 80px 250px 200px;
-    grid-template-columns: 0.25fr 1fr 1.5fr 0.25fr;
+    grid-template-rows: 125px 250px 200px 33px;
+    grid-template-columns: 0.75fr 1.25fr 1fr;
     grid-template-areas: 
-    ". area4 area1 ."
-    ". area4 area5 ."
-    ". area4 area5 .";
+    "area4 area5 ."
+    "area4 area5 area1"
+    "area4 area5 area2"
+    " . . .";
   }
   .grid-item1 {
     text-align: center;
     grid-area: area1;
+    color: white;
+    margin-top: 80px;
+    margin-right: 60px;
+  }
+
+  .grid-item2 {
+    grid-area: area2;
+    color: white;
   }
 
   .grid-item4 {
     grid-area: area4;
+    padding-left: 60px;
   }
   .grid-item5 {
     grid-area: area5;
   }
 
   #fraccion{
-    width: 450px;
+    width: 400px;
     height: 400px;
-    padding-inline-start: 80px;
+    margin-left: 40px;
+    margin-top: 70px;
   }
 
   #fraccionamiento {
-    height: 100%;
-    margin-left: 50px;
+    height: 95%;
+    margin-left: 20px;
+    margin-bottom: 50px;
   }
 
   #fondochacras {
