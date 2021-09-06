@@ -62,6 +62,24 @@
     display: flex;
     justify-content: space-around;
     height: 600px;
+    margin-top: 50px;
+  }
+
+  #ubic {
+    width: 600px;
+    height: 353px;
+  }
+
+  h4 {
+    text-align: center;
+  }
+
+  #ubicacion {
+    margin-top: 150px;
+  }
+
+  #fondoubicacion {
+    background-image:url(img/fondoubic.jpg);
   }
 
   #frase-nos {
