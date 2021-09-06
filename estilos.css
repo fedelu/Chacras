@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  #carouselchacras {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  header {
+  display: flex;
+  justify-content: space-around;
+  height: 250px;
+  flex-wrap: wrap;
+}
+ #primerback {
+  background-image:url(img/foto\ header.png);
+ }
+
+  picture {
+  margin-top: 20px;
+}
+
+  #header-1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  }
+  
+  #header-1 {
+    justify-content: space-around;
+  }
+  
+  #Texto-Header {
+    color: white;
+    text-align: left;
+    margin-left: 110px;
+    margin-top: 200px;
+  }
+
+  #botonchacras {
+    margin-left: 110px;
+  }
+  
+  #img1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  #Seccion1 {
+  height: 200px;
+  }
+
+  .grid-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  #Mapas {
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+  }
+
+  #frase-nos {
+  height: 250px;
+  background-color: blue;
+  text-align: center;
+}
+  
+  #Texto-nos {
+    height: 450px;
+    background-color: green;
+    text-align: center;
+}
+  
+  #Contactanos {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .grid-2 {
+    display: grid;
+    grid-template-rows: 80px 250px 200px;
+    grid-template-columns: 0.25fr 1fr 1.5fr 0.25fr;
+    grid-template-areas: 
+    ". area4 area1 ."
+    ". area4 area5 ."
+    ". area4 area5 .";
+  }
+  .grid-item1 {
+    text-align: center;
+    grid-area: area1;
+  }
+
+  .grid-item4 {
+    grid-area: area4;
+  }
+  .grid-item5 {
+    grid-area: area5;
+  }
+
+  #fraccion{
+    width: 450px;
+    height: 400px;
+    padding-inline-start: 80px;
+  }
+
+  #fraccionamiento {
+    height: 100%;
+    margin-left: 50px;
+  }
+
+  #fondochacras {
+    background-image:url(img/carousel/Chacrascarousel\(3\).jpeg);
+
+  }
+
+  #info-contacto {
+    float: right;
+  }
+
+ form {
+   width: 50%;
+   margin-right: 0 ;
+ }
+
+  table {
+    border: 3px solid;
+   }
+  
+  th {
+    background-color:#cccccc;
+    border: 1px solid;
+   }
+  
+   tr, td {
+    border: 1px solid;
+   }
+  
+  .titulo {
+    color: orange;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  p{
+    color: black;
+  }
+  nav {
+    width: 50%;
+  }
+  
+  ul {
+    list-style-type:none ;
+  }
+
+  body {
+    font-family: 'Baloo Chettan 2', cursive;
+  }
+
+  li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+ #seccion-1 {
+   margin: 20px;
+   display: inline-block;
+   letter-spacing: 2rem;
+   font-size: 2rem;
+ }
+
+ footer {
+   height: 150px;
+ }
+
+ footer {
+  display: flex;
+  justify-content: space-around;
+}
+#redes {
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+#footer-1 {
+  height: 150px;
+  width: 150px;
+}
+
+#Texto-entre-mapa h4 {
+  text-align: center;
+  align-items: center;
+  padding-top: 60px;
+}
+
+@media screen and (max-width: 680px) {
+  header{
+    flex-direction: column;
+  }
+
+  nav {
+    width: 100%;
+  }
+  #header-1 li a {
+    color: white;
+  }
+
+  header picture {
+    margin: 0 auto;
+  }
+
+  footer nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+  }
+
+  .grid-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+ #img1 {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+}
+
+@media screen and (max-width: 330px) {
+ #header-1 {
+   flex-direction: column;
+   align-items: center;
+ }
+
+ .grid {
+   display: flex;
+   flex-direction: column;
+   height: 300px;
+ }
+
+ #img1 {
+   width: 90%;
+   display: flex;
+   justify-content: center;
+ }
+ .grid-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+}
+
+
