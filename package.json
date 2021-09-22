@@ -1,0 +1,22 @@
+{
+  "name": "entrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-sass": "nodemon -e scss -x \"npm run build-sass\"",
+    "build-sass": "node-sass --include-path scss scss/index.scss css/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedelu/Chacras-Vertientes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedelu/Chacras-Vertientes/issues"
+  },
+  "homepage": "https://github.com/fedelu/Chacras-Vertientes#readme"
+}

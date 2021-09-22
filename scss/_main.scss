@@ -1,0 +1,421 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#carouselchacras {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container {
+  position: relative;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px 20px 10px;
+}
+
+.container .card {
+  max-width: 300px;
+  height: 420px;
+  height: 215px;
+  background: #fff;
+  margin: 30px 10px;
+  padding: 20px 10px;
+  display: flex;
+  border-radius: 4px;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+}
+
+.container .card:hover {
+  height: 390px;
+}
+
+.container .card .imgBx {
+  position: relative;
+  background: #fff;
+  top: -60px;
+  left: 20px;
+  min-width: initial;
+  width: 260px;
+  height: 260px;
+  border-radius: 4px;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container .card .imgBx img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.container .card .content {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  transition-delay: 0s;
+}
+
+.container .card:hover .content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+}
+
+header {
+display: flex;
+justify-content: space-around;
+height: 225px;
+flex-wrap: wrap;
+}
+#primerback {
+background-image:url(../img/fotoheader.png);
+}
+
+picture {
+margin-top: 20px;
+}
+
+#header-1 {
+display: flex;
+flex-direction: row;
+margin-top: 25px;
+}
+
+#header-1 {
+  justify-content: space-around;
+}
+
+#Texto-Header {
+  color: white;
+  text-align: left;
+  margin-left: 110px;
+  margin-top: 200px;
+}
+
+#botonchacras {
+  margin-left: 110px;
+}
+
+#img1 {
+  width: 100%;
+  height: 100%;
+}
+
+#Seccion1 {
+height: 275px;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#Mapas {
+  display: flex;
+  justify-content: space-around;
+  height: 600px;
+  margin-top: 50px;
+}
+
+#ubic {
+  width: 600px;
+  height: 353px;
+}
+
+h4 {
+  text-align: center;
+}
+
+#ubicacion {
+  margin-top: 150px;
+}
+
+#fondoubicacion {
+  background-image:url(../img/fondoubic.jpg);
+}
+
+#fondonosotros {
+  background-image:url(../img/fondonos.jpg);
+}
+
+#frase-nos {
+height: 300px;
+text-align: center;
+padding-top: 100px;
+}
+
+#Texto-nos {
+  margin-top: 100px;
+  height: 450px;
+  text-align: center;
+  color: white;
+}
+
+#Contactanos {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-rows: 125px 250px 200px 33px;
+  grid-template-columns: 0.75fr 1.25fr 1fr;
+  grid-template-areas: 
+  "area4 area5 ."
+  "area4 area5 area1"
+  "area4 area5 area2"
+  " . . .";
+}
+.grid-item1 {
+  text-align: center;
+  grid-area: area1;
+  color: white;
+  margin-top: 80px;
+  margin-right: 60px;
+}
+
+.grid-item2 {
+  grid-area: area2;
+  color: white;
+}
+
+.grid-item4 {
+  grid-area: area4;
+  padding-left: 60px;
+}
+.grid-item5 {
+  grid-area: area5;
+}
+
+#fraccion{
+  width: 400px;
+  height: 400px;
+  margin-left: 40px;
+  margin-top: 70px;
+}
+
+#fraccionamiento {
+  height: 95%;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+#fondochacras {
+  background-image:url(../img/carousel/Chacrascarousel3.jpeg);
+}
+
+#fondocontactanos {
+  background-image:url(../img/minas-uruguay.jpg);
+}
+
+#info-contacto {
+  float: right;
+}
+
+form {
+ width: 50%;
+ margin-right: 0 ;
+}
+
+table {
+  border: 3px solid;
+ }
+
+th {
+  background-color:#cccccc;
+  border: 1px solid;
+ }
+
+ tr, td {
+  border: 1px solid;
+ }
+
+.titulo {
+  color: orange;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p{
+  color: black;
+}
+nav {
+  width: 50%;
+}
+
+ul {
+  list-style-type:none ;
+}
+
+body {
+  font-family: 'Baloo Chettan 2', cursive;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+#seccion-1 {
+ margin: 20px;
+ display: inline-block;
+ letter-spacing: 2rem;
+ font-size: 2rem;
+}
+
+footer {
+ height: 150px;
+}
+
+footer {
+display: flex;
+justify-content: space-around;
+}
+#redes {
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+#footer-1 {
+height: 150px;
+width: 150px;
+}
+
+#Texto-entre-mapa h4 {
+text-align: center;
+align-items: center;
+padding-top: 60px;
+}
+
+
+form {
+margin: 0 auto;
+width: 600px;
+padding: 1em;
+border: 1px solid #CCC;
+border-radius: 1em;
+}
+
+ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+form li + li {
+margin-top: 1em;
+}
+
+label {
+display: inline-block;
+width: 90px;
+text-align: right;
+}
+
+input,
+textarea {
+font: 1em sans-serif;
+width: 300px;
+box-sizing: border-box;
+border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+border-color: #000;
+}
+
+textarea {
+vertical-align: top;
+height: 5em;
+}
+
+.button {
+padding-left: 90px;
+}
+
+button {
+margin-left: .5em;
+}
+@media screen and (max-width: 680px) {
+header{
+  flex-direction: column;
+}
+
+nav {
+  width: 100%;
+}
+#header-1 li a {
+  color: white;
+}
+
+header picture {
+  margin: 0 auto;
+}
+
+footer nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.grid {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+}
+
+.grid-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+#img1 {
+width: 90%;
+display: flex;
+justify-content: center;
+}
+
+}
+
+@media screen and (max-width: 330px) {
+#header-1 {
+ flex-direction: column;
+ align-items: center;
+}
+
+.grid {
+ display: flex;
+ flex-direction: column;
+ height: 300px;
+}
+
+#img1 {
+ width: 90%;
+ display: flex;
+ justify-content: center;
+}
+.grid-1 {
+display: flex;
+flex-direction: column;
+}
+
+}
