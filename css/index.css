@@ -118,6 +118,9 @@ picture {
   background-color: #E3E4E5;
   padding-top: 10px; }
 
+#contactback {
+  background-color: #F7F7F7; }
+
 #Mapas {
   display: flex;
   justify-content: space-around;
@@ -132,7 +135,11 @@ h4 {
   text-align: center; }
 
 #ubicacion {
-  margin-top: 150px; }
+  margin-top: 150px;
+  height: 675px; }
+
+#nosotros {
+  height: 825px; }
 
 #fondoubicacion {
   background-image: url(../img/fondoubic.jpg); }
@@ -156,6 +163,9 @@ h4 {
   justify-content: space-around;
   padding-bottom: 50px; }
 
+#contactanos-main {
+  padding: 80px; }
+
 h2 {
   text-align: center; }
 
@@ -174,7 +184,8 @@ h2 {
 
 .grid-item2 {
   grid-area: area2;
-  color: white; }
+  color: white;
+  padding-right: 15px; }
 
 .grid-item4 {
   grid-area: area4;
@@ -186,7 +197,7 @@ h2 {
 #fraccion {
   width: 400px;
   height: 400px;
-  margin-left: 40px;
+  margin-left: 20px;
   margin-top: 70px; }
 
 #fraccionamiento {
@@ -196,9 +207,6 @@ h2 {
 
 #fondochacras {
   background-image: url(../img/carousel/Chacrascarousel3.jpeg); }
-
-#fondocontactanos {
-  background-image: url(../img/minas-uruguay.jpg); }
 
 #info-contacto {
   float: right; }
@@ -245,9 +253,7 @@ li a {
   font-size: 2rem; }
 
 footer {
-  height: 150px; }
-
-footer {
+  height: 150px;
   display: flex;
   justify-content: space-around; }
 
@@ -256,12 +262,32 @@ footer {
   flex-direction: column;
   float: right; }
 
+#redes a {
+  color: #fff; }
+
 #footer-1 {
   height: 150px;
   width: 150px; }
 
+#footer-1-index {
+  height: 150px;
+  width: 150px; }
+
+#footer-1-index li a {
+  color: #fff; }
+
 #footer-2 p {
   margin-bottom: 0; }
+
+#footer-ubic {
+  padding-top: 15px; }
+
+#footer-2-index p {
+  margin-bottom: 0;
+  color: #fff; }
+
+#footer-2-index h5 {
+  color: #fff; }
 
 #Texto-entre-mapa h4 {
   text-align: center;
