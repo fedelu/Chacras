@@ -74,6 +74,9 @@ header {
 #primerback {
   background-image: url(../img/fotoheader.png); }
 
+#segundoback {
+  background-image: url(../img/Vertientes7.jpeg); }
+
 picture {
   margin-top: 20px; }
 
@@ -103,7 +106,17 @@ picture {
 
 .grid-1 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; }
+  grid-template-columns: 1.25fr 0.5fr 1.25fr;
+  margin: 5%;
+  padding-top: 5%;
+  text-align: center; }
+
+.grid-1 h6 {
+  color: #fff; }
+
+#footer-chacras {
+  background-color: #E3E4E5;
+  padding-top: 10px; }
 
 #Mapas {
   display: flex;
@@ -246,6 +259,9 @@ footer {
 #footer-1 {
   height: 150px;
   width: 150px; }
+
+#footer-2 p {
+  margin-bottom: 0; }
 
 #Texto-entre-mapa h4 {
   text-align: center;
