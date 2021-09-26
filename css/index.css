@@ -164,7 +164,8 @@ h4 {
   padding-bottom: 50px; }
 
 #contactanos-main {
-  padding: 80px; }
+  padding: 80px;
+  height: 724px; }
 
 h2 {
   text-align: center; }
@@ -340,14 +341,15 @@ button {
     flex-direction: column; }
   nav {
     width: 100%; }
-  #header-1 li a {
+  #headerindex li a {
     color: white; }
   header picture {
     margin: 0 auto; }
   footer nav {
     display: flex;
     justify-content: space-around;
-    align-items: center; }
+    align-items: center;
+    padding-top: 5px; }
   .grid {
     display: flex;
     flex-direction: column;
@@ -355,10 +357,43 @@ button {
   .grid-1 {
     display: flex;
     flex-direction: column; }
-  #img1 {
-    width: 90%;
+  .grid-2 {
     display: flex;
-    justify-content: center; } }
+    flex-direction: column; }
+  .grid-item1 {
+    margin: 0;
+    text-align: center; }
+  .grid-item4 {
+    margin-top: 5%;
+    align-self: center;
+    padding-left: 0; }
+  .grid-item5 {
+    align-self: center;
+    margin-bottom: 5%; }
+  .grid-item2 {
+    display: none !important; }
+  #fraccion {
+    margin: 0; }
+  #Mapas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px; }
+  #ubicacion {
+    margin-top: 50px;
+    height: 780px; }
+  #ubic {
+    width: 500px;
+    height: 280px; }
+  #seccion-2 {
+    align-items: center; }
+  #img1 {
+    display: flex;
+    justify-content: center; }
+  #Texto-entre-mapa {
+    height: 15px; }
+  footer nav {
+    width: 150px; } }
 
 @media screen and (max-width: 330px) {
   #header-1 {
