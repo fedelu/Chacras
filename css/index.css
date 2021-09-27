@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box; }
 
+#redes + links {
+  width: 300px; }
+
 #carouselchacras {
   margin-top: 15px;
   margin-bottom: 15px; }
