@@ -174,10 +174,14 @@ h4 {
 
 #fondoubicacion {
   background-image:url(../img/fondoubic.jpg);
+  background-size: cover; 
+  background-repeat: no-repeat;
 }
 
 #fondonosotros {
   background-image:url(../img/fondonos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #frase-nos {
@@ -255,6 +259,8 @@ h2 {
 
 #fondochacras {
   background-image:url(../img/carousel/Chacrascarousel3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
